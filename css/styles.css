@@ -228,6 +228,14 @@ background: #188ce8;
     gap: 30px;
 }
 /* ========== TEAM ==========*/
+.social-list-team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
 
 .team-content {
     padding-top: 30px;
