@@ -228,6 +228,29 @@ background: #188ce8;
     gap: 30px;
 }
 /* ========== TEAM ==========*/
+.social-list-link {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color:#FFFFFF;
+
+}
+.social-list-link:hover,
+.social-list-link:focus {
+background-color: #2196F3;
+
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: #FFFFFF;
+
+}
+.social-list-icon{
+    fill: #afb1b8;
+}
 .social-list {
     display: flex;
     justify-content: center;
