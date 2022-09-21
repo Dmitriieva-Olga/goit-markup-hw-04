@@ -15,7 +15,9 @@
     margin-top: 0;
     margin-bottom: 0;
  }
-
+ a {
+     background-color: transparent;
+ }
  ul,
  ol {
     margin-top: 0;
@@ -325,6 +327,26 @@ background-color: #2196F3;
 }
 
 /*========regular clients=========*/
+.block {
+    display: flex;
+    gap: 30px;
+} 
+
+.clients .link-down {
+    display: flex;
+    justify-content: center;
+}
+
+.clients .link-down {
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    color: var(--icon-color);
+}
+
+
 /*========Footer==========*/
 .logo-footer {
     display: block;
