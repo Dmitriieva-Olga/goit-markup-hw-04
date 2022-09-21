@@ -348,16 +348,12 @@ background-color: #2196F3;
 
 .client-list-link :hover,
 .client-list-link :focus {
-    border-color: #2196F3;
+    fill: #2196F3;
 }
 
-.clients .link-down {
-    width: 170px;
-    height: 92px;
-    align-items: center;
-    border: 1px solid var(--icon-color);
-    border-radius: 4px;
-    color: var(--icon-color);
+.client-list-item :hover,
+.client-list-item :focus {
+border-color: #2196F3;
 }
 
 
