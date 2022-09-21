@@ -329,6 +329,7 @@ background-color: #2196F3;
 /*========regular clients=========*/
 .block {
     display: flex;
+    justify-content: center;
     gap: 30px;
 } 
 
