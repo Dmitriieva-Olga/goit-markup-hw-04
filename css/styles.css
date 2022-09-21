@@ -328,7 +328,7 @@ background-color: #2196F3;
 }
 
 /*========regular clients=========*/
-.block {
+.client-list{
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -338,7 +338,7 @@ background-color: #2196F3;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 170px;
+    width: 170px;
     height: 92px;
     fill:#afb1b8;
     border: 1px solid var(--icon-color);
@@ -346,15 +346,17 @@ background-color: #2196F3;
     color: var(--icon-color);
 }
 
+.client-list-item :hover,
+.client-list-item :focus {
+    border-color: #2196F3;
+}
+
 .client-list-link :hover,
 .client-list-link :focus {
     fill: #2196F3;
 }
 
-.client-list-item :hover,
-.client-list-item :focus {
-border-color: #2196F3;
-}
+
 
 
 /*========Footer==========*/
