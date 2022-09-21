@@ -5,6 +5,7 @@
    --hero-color: #2F303A;
   --title-color: #FFFFFF;
    --back-color: #f5f4fa;
+   --icon-color: #AFB1B8;
 }
 
  h1,
@@ -333,9 +334,21 @@ background-color: #2196F3;
     gap: 30px;
 } 
 
-.clients .link-down {
+.clients-list-link{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 170px;
+    height: 92px;
+    fill:#afb1b8;
+    border: 1px solid var(--icon-color);
+    border-radius: 4px;
+    color: var(--icon-color);
+}
+
+.client-list-link :hover,
+.client-list-link :focus {
+    border-color: #2196F3;
 }
 
 .clients .link-down {
