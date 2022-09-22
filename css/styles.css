@@ -437,6 +437,33 @@ background-color: #2196F3;
     margin-top: 20px;
 
 }
+
+.social-list-item {
+    height: 44px;
+    width: 44px;
+
+}
+
+.social-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--title-color);
+}
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: #2196F3;
+}
+
+.link-footer {
+    fill: #FFFFFF;
+
+    
 /* ========== PORTFOLIO ==========*/
 .portfolio-title {
     background: #FFFFFF;
